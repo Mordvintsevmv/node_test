@@ -1,0 +1,2 @@
+Text from .env
+Append text
