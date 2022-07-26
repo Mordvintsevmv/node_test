@@ -2,9 +2,9 @@
 
 import fs from 'fs'
 import fsPromise from 'fs/promises'
-import path from 'Module/path.js'
-import { fileURLToPath } from 'Module/url.js';
-import { dirname } from 'Module/path.js';
+import path from 'path'
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 import dotenv from "dotenv";
 
 dotenv.config()

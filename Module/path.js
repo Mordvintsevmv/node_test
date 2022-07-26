@@ -1,7 +1,7 @@
 // Пример работы с путём до файла
-import { fileURLToPath } from 'Module/url.js';
-import { dirname } from 'Module/path.js';
-import path from 'Module/path.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import path from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

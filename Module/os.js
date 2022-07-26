@@ -1,6 +1,6 @@
 // Информация о системе
 
-import os from 'Module/os.js'
+import os from 'os'
 import cluster from 'cluster'
 
 if (cluster.isMaster){

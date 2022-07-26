@@ -1,6 +1,6 @@
 // Работа с событиями
 
-import Events from 'Module/events.js'
+import Events from 'events'
 import dotenv from "dotenv";
 
 const events = new Events()
